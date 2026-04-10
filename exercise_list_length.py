@@ -13,6 +13,3 @@ def list_length(lista):
     pass  
     return len(lista)
 
-mi_lista = input("ingrese su lista separada por espacio: ").split()
-lista_final = len(mi_lista)
-print(lista_final)
