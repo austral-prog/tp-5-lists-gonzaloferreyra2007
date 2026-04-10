@@ -10,4 +10,6 @@ def is_empty(lista):
     Returns:
         True si la lista está vacía, False en caso contrario
     """
-    pass  # Reemplazar con tu implementación
+    if len(lista) == 0:
+        return True
+    return False
